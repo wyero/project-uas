@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #b59655;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav img{
+    margin-left: 20px;
+    width: 80px;
+    height: 100px;
+}
+nav h1{
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    font-style: italic;
+    text-shadow: 5px 5px 3px black;
+}
+.hal-utama{
+    display: flex;
+}
+.hal-utama aside{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 440px;
+}
+.hal-utama aside a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.hal-utama aside a i{
+    margin-right: 5px;
+    width: 30px;
+}
+main{
+    width: 100%;
+}
+main h2{
+    background: url('/img/perpustakaan.jpeg');
+    height: 83vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4.3rem;
+    text-align: center;
+    text-shadow: 5px 5px 3px black;
+}
+.buku{
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    opacity: 0.7;
+    background-color: black;
+}
+.inputbuku{
+    width: 50%;
+    margin: auto;
+}
+.inputbuku p{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 3px grey;
+    color: white;
+}
+.inputbuku form{
+    padding-left: 30px;
+}
+.inputbuku form label{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.inputbuku form input{
+    width: 90%;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+}
+.inputbuku form button{
+    width: 90%;
+    height: 33px;
+    margin-top: 10px;
+    background: green;
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 3px black;
+}
+.daftarB{
+    padding-left: 40px;
+    height: 100vh;
+    opacity: 0.7;
+    background-color: black;
+}
+.daftarB p{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px grey;
+    color: white;
+}
+.daftarB table{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.daftarB table thead {
+    box-shadow: 2px 2px 3px whitesmoke;
+}
+.daftarB table thead tr th{
+    padding: 15px 10px;
+    font-size: 20px;
+    text-shadow: 1px 2px 3px silver;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.daftarB table tbody tr td{
+    padding: 10px 0;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action a{
+    font-size: 20px;
+    color: blue;
+}
+.action div{
+    width: 1px;
+    height: 22px;
+    background-color: silver;
+    margin: 0 5px;
+}
+.action button{
+    font-size: 20px;
+    background-color: red;
+}
+.daftarP{
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 100vh;
+    opacity: 0.7;
+    background-color: black;
+}
+.daftarP p{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px grey;
+    color: white;
+}
+.daftarP table{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.daftarP table thead {
+    box-shadow: 2px 2px 3px whitesmoke;
+}
+.daftarP table thead tr th{
+    padding: 15px 0;
+    font-size: 18px;
+    text-shadow: 1px 2px 3px silver;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+.daftarP table tbody tr td{
+    padding: 5px 0;
+    font-size: 15px;
+}
+.daftarP.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.daftarP.action a{
+    font-size: 20px;
+    color: blue;
+}
+.daftarP.action div{
+    width: 1px;
+    height: 22px;
+    background-color: silver;
+    margin: 0 5px;
+}
+.daftarP.action button{
+    font-size: 20px;
+    background-color: red;
+}
+.jk{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+button{
+    cursor: pointer;
+}
+.ketentuan{
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+.ketentuan p{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 3px grey;
+}
+.ketentuan ul{
+    width: 70%;
+    margin: auto;
+}
+.ketentuan ul li{
+    font-size: 20px;
+}
+.ketentuan ul ol{
+    width: 85%;
+    margin: auto;
+    padding: 8px 0;
+}
+.ketentuan ul ol li{
+    margin: 13px 0;
+    font-size: 16px;
+}
+.ketentuan ul p{
+    font-size: 16px;
+    text-align: justify;
+    padding-top: 10px;
+    text-shadow: none;
+    width: 90%;
+    margin: auto;
+    padding-top: 8px;
+}
